@@ -35,7 +35,7 @@
 // avatar — посилання на зображення
 // stats — об'єкт з інформацією про активності
 
-import user from 'user.
+import user from 'user'
 
 <Profile
   username={user.username}
@@ -44,3 +44,23 @@ import user from 'user.
   avatar={user.avatar}
   stats={user.stats}
 />
+
+ Profile.propTypes = {
+    username : PropTypes.string,
+    tag : PropTypes.string,
+    location : PropTypes.string,
+    avatar : PropTypes.string,
+    stats : PropTypes.object,
+  
+}
+  {
+  "username": "Jacques Gluke",
+  "tag": "jgluke",
+  "location": "Ocho Rios, Jamaica",
+  "avatar": "https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
+  "stats": {
+    "followers": 5603,
+    "views": 4827,
+    "likes": 1308
+  }
+}
