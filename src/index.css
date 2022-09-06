@@ -30,6 +30,11 @@ code {
     width: 350px;
       height: 268px;
       margin: auto;
+      font-style: oblique;
+   
+      color: aliceblue;
+      font-size: 30;
+   
   
 }
 .about{
