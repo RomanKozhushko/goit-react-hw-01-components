@@ -1,5 +1,6 @@
-/* @import-normalize;  */
+@import-normalize; 
 /* bring in normalize.css styles */
+
 
 body {
   margin: 0;
@@ -13,4 +14,30 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.profile {
+  width: 600px;
+  background-color: rgb(170, 3, 95);
+}
+.description{
+  width: 500px; 
+  background-color: rgb(255, 195, 205);
+  margin: auto;
+  margin-top: 50px;
+}
+.stats{
+    width: 350px;
+      height: 268px;
+      margin: auto;
+  
+}
+.about{
+  width: 350px;
+  height: 268px;
+  margin: auto;
+  margin-bottom: 50px;
+  }
+.avatar{
+  margin-top: 50px;
 }

@@ -4,29 +4,31 @@ import PropTypes from 'prop-types';
 
 const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
-    <div className="profile">
-    <div className="description">
+    <div class="profile">
+    <div class="description">
       <img
         src={avatar}
         alt={username}
         class="avatar"
-      />
+        />
+        <div class="about">
         <p class="name">{username}</p>
         <p class="tag">{tag}</p>
-        <p class="location">{location}</p>
+          <p class="location">{location}</p>
+          </div>
     </div>
 
     <ul class="stats">
       <li>
-        <span class="label">Followers</span>
+        <span class="label">Followers  </span>
           <span class="quantity">{stats.followers}</span>
       </li>
       <li>
-        <span class="label">Views</span>
+        <span class="label">Views  </span>
           <span class="quantity">{stats.views}</span>
       </li>
       <li>
-        <span class="label">Likes</span>
+        <span class="label">Likes  </span>
           <span class="quantity">{stats.likes}</span>
       </li>
     </ul>
