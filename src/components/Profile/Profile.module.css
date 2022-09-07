@@ -4,12 +4,15 @@
     width: 600px;
     background-color: rgb(170, 3, 95);
     padding: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
 }
 
 .description {
     width: 550px;
     background-color: rgba(222, 221, 231, 0.493);
     margin: auto;
+    border-radius: 5px;
 
 }
 
