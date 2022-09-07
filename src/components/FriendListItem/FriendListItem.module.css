@@ -5,7 +5,7 @@
     margin: 25px auto;
     padding: 0 15px;
     width: 470px;
-    background-color: rgba(222, 221, 231, 0.493);
+    background-color: rgba(222, 221, 231, 0.597);
     border-radius: 5px;
 }
 
@@ -18,7 +18,7 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: rgb(86, 192, 53);
+    background-color: rgb(60, 255, 0);
 }
 
 .offline {
@@ -26,7 +26,7 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: rgb(255, 68, 68);
+    background-color: rgb(253, 0, 0);
 }
 
 .name {

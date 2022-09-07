@@ -13,19 +13,30 @@
     background-color: rgba(222, 221, 231, 0.493);
     margin: auto;
     border-radius: 5px;
+    font-size: 40px;
+}
+
+.name{
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.tag{
+margin: 0;
 
 }
+.location{
+margin: 0;
+}
+
 
 .stats {
     width: 350px;
     height: 268px;
     margin: auto;
     font-style: oblique;
-
     color: aliceblue;
-    font-size: 30;
-
-
+    font-size: 40px;
 }
 
 .about {
@@ -36,5 +47,15 @@
 }
 
 .avatar {
-    margin-top: 50px;
+ 
+}
+.lable{
+    display: block;
+        width: 100px;
+        height: 100px;
+        margin-top: 50px;
+}
+.quantity{
+  font-weight: 700;
+
 }

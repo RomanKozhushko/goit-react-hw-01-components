@@ -11,10 +11,23 @@ margin-left: auto;
     width: 550px;
         background-color: rgba(222, 221, 231, 0.493);
         margin: auto;
+      
+            
+            margin: auto;
+            font-style: oblique;
+            color: aliceblue;
+            font-size: 40px;
 
 }
 
+
 .statlist{
+    width: 350px;
+        height: 268px;
+        margin: auto;
+        font-style: oblique;
+        color: aliceblue;
+        font-size: 40px;
 
 } 
 
