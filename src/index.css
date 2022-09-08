@@ -1,6 +1,9 @@
 /* @import-normalize;  */
 /* bring in normalize.css styles */
 
+ul{
+  padding: 0;
+}
 
 body {
   margin: 0;

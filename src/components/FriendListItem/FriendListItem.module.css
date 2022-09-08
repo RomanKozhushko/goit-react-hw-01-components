@@ -3,34 +3,39 @@
     display: flex;
     align-items: center;
     margin: 25px auto;
-    padding: 0 15px;
-    width: 470px;
-    background-color: rgba(222, 221, 231, 0.597);
+    padding: 10px;
+    width: 640px;
+    background-color: white;
     border-radius: 5px;
 }
 
-.avatar {
-    margin-left: 20px;
+.avatarca {
+    width: 140px;
+    margin-left: 30px;
+
 }
 
 .online {
     display: block;
-    width: 20px;
-    height: 20px;
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     background-color: rgb(60, 255, 0);
 }
 
 .offline {
     display: block;
-    width: 20px;
-    height: 20px;
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     background-color: rgb(253, 0, 0);
 }
 
 .name {
-    margin-left: 50px;
-    font-size: 30px;
+    margin-left: 30px;
+    font-size: 50px;
     font-weight: 700;
+    color: rgb(93, 92, 92);
 }

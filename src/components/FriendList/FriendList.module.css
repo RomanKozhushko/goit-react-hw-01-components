@@ -1,6 +1,7 @@
 .friendList {
     margin: 25px auto;
     padding: 50px;
-    width: 600px;
+    width: 900px;
+    border-radius: 5px;
     background-color: rgb(170, 3, 95);
 }
