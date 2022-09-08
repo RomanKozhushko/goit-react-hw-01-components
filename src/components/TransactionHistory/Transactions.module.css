@@ -1,0 +1,23 @@
+.transHistory{
+    margin: 50px auto;
+    width: 700px;
+    background-color: rgb(170, 3, 95);
+    padding: 50px;
+    margin-bottom: 50px;
+}
+.transHistory__head{
+width: 550px;
+    background-color: rgba(222, 221, 231, 0.493);
+    margin: auto;
+}
+.transHistory__line{
+    width: 550px;
+        background-color: rgba(222, 221, 231, 0.793);
+        margin: auto;
+       
+
+}
+/* .transHistory__value{
+    
+
+} */
