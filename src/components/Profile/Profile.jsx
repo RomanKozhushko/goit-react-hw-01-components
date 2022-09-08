@@ -2,9 +2,15 @@ import PropTypes from 'prop-types';
 
 import css from './Profile.module.css'
 
+function getRandomHexColor() {
+  return `#${Math.floor(Math.random() * 16777215)
+    .toString(16)
+    .padStart(6, 0)}`;
+}
+
 const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
-    <div className={css.profile}>
+    <div className={css.profile} style={{ backgroundColor: getRandomHexColor() }}>
       <div className={css.description}>
       <img
           src={avatar}

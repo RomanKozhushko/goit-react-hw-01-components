@@ -10,7 +10,7 @@ function getRandomHexColor() {
 
 const Statistics = ({ title, stats }) => {
   return (
-      <section className={css.statistics}>
+      <section className={css.statistics} style={{ backgroundColor: getRandomHexColor() }}>
           {title ? <h2 className={css.title}>{title}</h2> : ""}
 
           <ul className={css.statlist}>
