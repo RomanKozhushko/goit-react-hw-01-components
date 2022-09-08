@@ -1,22 +1,33 @@
 .transHistory{
     margin: 50px auto;
-    width: 700px;
+    width: 1000px;
     background-color: rgb(170, 3, 95);
     padding: 50px;
     margin-bottom: 50px;
+    border-radius: 5px;
+    
 }
 .transHistory__head{
-width: 550px;
-    background-color: rgba(222, 221, 231, 0.493);
+height: 60px;
+text-align: center;
+    background-color: rgba(242, 241, 241, 0.693);
     margin: auto;
+    color: white;
+    font-size: 24px;
 }
 .transHistory__line{
-    width: 550px;
-        background-color: rgba(222, 221, 231, 0.793);
-        margin: auto;
-       
+height: 60px;
+text-align: center;
 
+         background-color: rgba(222, 221, 231, 0.793);
+        margin: auto;
+    font-size: 24px;
 }
+
+.transHistory__line:nth-child(2n){
+    background-color: rgba(255, 255, 255, 0.793);
+  }
+
 /* .transHistory__value{
     
 
